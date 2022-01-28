@@ -10,7 +10,7 @@ export default function TopBar() {
         dispatch({type: "LOGOUT"});
     }
 
-    const PF = "http://localhost:5000/images/";
+    const PF = "https://fast-earth-67440.herokuapp.com/images/";
 
   return (
     <div className='top'>

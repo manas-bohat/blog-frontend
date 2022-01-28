@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Post({post}) {
 
-    const PF = "http://localhost:5000/images/"        // public folder
+    const PF = "https://fast-earth-67440.herokuapp.com/images/"        // public folder
 
   return ( 
         <div className="post">

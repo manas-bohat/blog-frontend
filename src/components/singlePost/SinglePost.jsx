@@ -7,7 +7,7 @@ import { Context } from "../../context/Context";
 
 export default function SinglePost() {
 
-    const PF = "http://localhost:5000/images/" 
+    const PF = "https://fast-earth-67440.herokuapp.com/images/" 
 
     const location = useLocation();
     const path = (location.pathname.split("/"))[2]; // post ID 

@@ -18,7 +18,7 @@ export default function Settings() {
     const [email, setEmail] = useState("");
     const [success, setSuccess] = useState(false);
 
-    const PF = "http://localhost:5000/images/";
+    const PF = "https://fast-earth-67440.herokuapp.com/images/";
     const {user, dispatch} = useContext(Context);
 
     const handleSubmit = async (e) => {
