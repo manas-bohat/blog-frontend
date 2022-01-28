@@ -1,0 +1,14 @@
+.foot {
+  /* width: 100%; */
+  height: 30px;
+  margin-top: 25px;
+  background-color: gray;
+  /* background: url('../assets/hue2.jpg');
+  object-fit: scale-down; */
+  padding: 10px;
+  color: white;
+  text-align: right;
+  padding-right: 20px;
+  font-family: 'Roboto', serif;
+  /* font-weight: bolder; */
+}

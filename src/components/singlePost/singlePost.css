@@ -1,0 +1,124 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  margin-top: 0px;
+  padding: 20px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  margin: 10px;
+  margin-top: 20px;
+  font-family: 'Lora', 'Roboto', serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: 'Lora', 'Roboto', serif;
+  font-size: 28px;
+  border: none;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 18px;
+}
+
+.singlePostIcon {
+  margin-left: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  /* font-weight: bolder; */
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  margin: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.request {
+  margin: 20px;
+  margin-bottom: 40px;
+  font-family: 'Roboto', serif;
+  /* font-weight: bolder; */
+}
+
+.likeText {
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.likeIcon {
+  cursor: pointer;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  margin: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+  font-family: serif;
+  height: 50vh;
+}
+
+.writeIcon {
+  margin-top: 4px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+
+.singlePostButton {
+  padding: 7px;
+  width: 100px;
+  margin: 20px 0px;
+  align-self: flex-end;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: teal;
+  cursor: pointer;
+}
